@@ -13,9 +13,9 @@ REM generate zip of Python's PCBuild\amd64
 REM msbuild Pythoncore.dll <- done
 REM 
 
-\Python38\python scripts\untar.py zlib-1.2.11.tar.gz
-\Python38\python scripts\untar.py openssl-1.1.1g.tar.gz
-\Python38\python scripts\untar.py Python-3.8.2.tgz
+python scripts\untar.py zlib-1.2.11.tar.gz
+python scripts\untar.py openssl-1.1.1g.tar.gz
+python scripts\untar.py Python-3.8.2.tgz
 
 copy zlib-patch\zlibstat.vcxproj zlib-1.2.11\contrib\vstudio\vc14
 
