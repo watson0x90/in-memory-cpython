@@ -7,6 +7,7 @@ This repository contains all the build artifacts necessary to build an embedding
 * Chris Balles
 
 ## Building
+* Requirers Visual Studio v140 & v142 C++ x64/x86 build tools
 * Requires NASM and Strawberry Pearl.
  * Originally built using NASM 2.15.05 and Strawberry Pearl 5.30.1.1.
    * https://strawberryperl.com/download/5.30.3.1/strawberry-perl-5.30.3.1-64bit-portable.zip
